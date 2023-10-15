@@ -6,4 +6,6 @@
 ```bash
 mv ~/.config/nvim{,.bak}
 git clone https://github.com/hjlee1371/lazyvim-config ~/.config/nvim
+# to use italics in tmux
+echo "set -g default-terminal xterm-256color" >> ~/.tmux.conf
 ```
