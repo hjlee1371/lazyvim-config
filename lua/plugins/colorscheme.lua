@@ -1,12 +1,11 @@
 return {
-  -- add gruvbox
-  { "Mofiqul/vscode.nvim" },
-
-  -- Configure LazyVim to load gruvbox
+  {
+    "hjlee1371/visual_studio_code",
+  },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "vscode",
+      colorscheme = "visual_studio_code",
     },
   },
 }
