@@ -7,6 +7,7 @@ return {
         pyright = {},
         clangd = {},
       },
+      autoformat = false,
     },
   },
 }
